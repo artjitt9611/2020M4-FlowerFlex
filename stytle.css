@@ -1,0 +1,35 @@
+
+.Container{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.NavbarTop{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.BarandContent{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.contentlist{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.NavbarTop>div{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(226, 205, 113);
+}
+.LeftBar>div{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(226, 205, 113);
+}
+.Header,.Footer{
+    
+    background-color: burlywood;
+}
+.Content>.contentlist>div{
+    border: 1px solid;
+}
